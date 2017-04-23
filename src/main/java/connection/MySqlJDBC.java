@@ -15,9 +15,9 @@ public class MySqlJDBC {
 		// протокола:подпротокола://[хоста]:[порта_СУБД]/[БД] и других_сведений
 		String url = "jdbc:mysql://127.0.0.1:3306/yura";
 		// Имя пользователя БД
-		String name = "";
+		String name = "root";
 		// Пароль
-		String password = "Hungry";
+		String password = "";
 		// Загружаем драйвер
 		Class.forName("com.mysql.jdbc.Driver");
 		System.out.println("Драйвер подключен");
