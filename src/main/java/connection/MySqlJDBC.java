@@ -8,14 +8,14 @@ import java.sql.SQLException;
 
 public class MySqlJDBC {
 
-	Connection connection = null;
+	private Connection connection = null;
 
 	public void createConnection() throws ClassNotFoundException, SQLException {
 		// URL к базе состоит из
 		// протокола:подпротокола://[хоста]:[порта_СУБД]/[БД] и других_сведений
 		String url = "jdbc:mysql://127.0.0.1:3306/yura";
 		// Имя пользователя БД
-		String name = "root";
+		String name = "";
 		// Пароль
 		String password = "Hungry";
 		// Загружаем драйвер

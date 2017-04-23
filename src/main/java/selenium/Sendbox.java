@@ -41,7 +41,7 @@ public class Sendbox {
 
 	@Test
 	public void testRegistration() throws InterruptedException, ClassNotFoundException, SQLException {
-		LoginPage lp = new LoginPage(driver);
+		LoginPage lp = new LoginPage();
 
 		String login = "FranciscoFrancoEmail";
 		String password = "12345TestTest12345";

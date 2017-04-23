@@ -57,6 +57,8 @@ public class LoginPage {
 		$(By.id("submitbutton")).click();
 	}
 
+	LoginPage(){		
+	}
 	LoginPage(WebDriver driver) {
 		// PageFactory.initElements(driver, this);
 		this.driver = driver;
